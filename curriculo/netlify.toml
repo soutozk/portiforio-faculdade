@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "/curriculo.html"
+status = 200

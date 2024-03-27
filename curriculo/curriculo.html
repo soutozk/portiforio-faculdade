@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Portifolio</title>
+      <!-- <link rel="stylesheet" href="style.css"> -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <style>
+         @import url('https://fonts.cdnfonts.com/css/new-super-mario-font-u');    
+
+body{
+    font-family: 'New Super Mario Font U', sans-serif;
+    background-color: #040420;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* largura barra de rolagem */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #131338;        /* cor do fundo da barra */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #6b73e6;    /* cor da barra de rolagem */
+    border-radius: 20px;       
+   
+  }
+
+.main-top{
+    width: 100%;
+    height:600px ;
+}
+
+main .container {
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.text, .img-top{
+    flex: 1 1  45%; 
+    max-width: 50%; 
+    padding: 20px; 
+}
+
+
+img{
+    width: 550px;
+}
+
+h1{
+    font-size: 50px;
+    padding-left: 30px;
+}
+
+#mario-title span:nth-child(1) { color: rgb(0, 162, 255); } /* g */
+#mario-title span:nth-child(2) { color: yellow; } /* a */
+#mario-title span:nth-child(3) { color: red; } /* b */
+#mario-title span:nth-child(4) { color: green; } /* r*/
+#mario-title span:nth-child(5) { color: yellow; } /* i */
+#mario-title span:nth-child(6) { color: red; } /* e */
+#mario-title span:nth-child(7) { color: green; } /* l */
+#mario-title span:nth-child(8) {color: red;}
+#mario-title span:nth-child(9) { color: yellow; } /* s*/
+#mario-title span:nth-child(10) { color: rgb(0, 162, 255);  } /* o */
+#mario-title span:nth-child(11) { color: green; } /* u */
+#mario-title span:nth-child(12) { color: red; } /* t */
+#mario-title span:nth-child(13) { color: yellow; } /* o */
+#mario-title span:nth-child(14) { color: rgb(0, 162, 255); } /* g */
+#mario-title span:nth-child(15) { color: yellow; } /* a */
+#mario-title span:nth-child(16) { color: red; } /* b */
+#mario-title span:nth-child(17) { color: green; } /* r*/
+#mario-title span:nth-child(18) { color: yellow; } /* i */
+#mario-title span:nth-child(19) { color: red; } /* e */
+#mario-title span:nth-child(20) { color: green; } /* l */
+#mario-title span:nth-child(21) {color: red;}
+#mario-title span:nth-child(22) { color: yellow; } /* s*/
+
+p-inicio{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+/* blocos */
+
+.section1{
+    width: 100%;
+    height: 700px;
+}
+
+.container-blocos{
+padding: 5px;
+
+}
+
+.bloco{
+    width: 70px;
+    margin: auto;
+}
+
+/* habilidades */
+
+h3{
+    text-align: center;
+    font-size: 50px;
+    /* padding: 20px; */
+}
+
+p{
+    font-size: 18px;
+    padding-left: 35px;
+    color: antiquewhite;
+}
+
+ul {
+    color: antiquewhite;
+  }
+  
+
+li{
+    font-size: 20px;
+}
+
+
+/* projetos */
+
+.main-projetos{
+    width: 100;
+    height: 700px;
+}
+
+
+.container-projetos {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 80px;
+  }
+  
+  .video-coluna img {
+    width: 350px; 
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    box-shadow: 10px 10px 8px #2b2929a4;
+  }
+  
+
+.projetos{
+    color: rgb(255, 255, 255);
+}
+
+.app{
+    width: 35px;
+    padding-left: 10px;
+    margin-left: 20px;
+
+}
+
+.appl{
+    width: 40px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+  @media(max-width: 830px){
+     .video-coluna img{
+      width: 100%;
+      height: auto;
+     }
+  }
+  
+      </style>
+   </head>
+   <body>
+      <main class="main-top">
+         <div class="container">
+            <div class="text"  data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="100">
+               <h1 id="mario-title"> <span>G</span> <span>a</span> <span>b</span> <span>r</span> <span>i</span> <span>e</span>  <span>l</span> <span> &nbsp; </span> <span>S</span> <span>o</span> <span>u</span> <span>t</span> <span>o</span></h1>
+               <p class="p-inicio"> Me chamo João Gabriel, sou um estudante de Ciência da Computacao pela (UCB),
+                  onde, como o Mario em suas aventuras, salto entre projetos pessoais variados, buscando sempre conquistar novos conhecimentos.
+                  Apesar de estar no início da minha carreira profissional, busco diariamente aumentar meus conhecimentos para alcançar meus objetivos e metas. 
+               </p>
+               <a href="https://www.linkedin.com/in/jo%C3%A3o-gabriel-souto-b5129b2b2/"  target="_blank"><img class="app" src="linkedin_3536505.png" alt=""></a>
+               <a href="https://github.com/soutozk"  target="_blank"><img class="appl" src="logo_12868746.png" alt=""  ></a>
+               <a href="https://www.instagram.com/soutozk/"  target="_blank"><img  class="app" src="instagram_2111463.png" alt=""  target="_blank"></a>
+            </div>
+            <div class="img-top" data-aos="fade-up-left" data-aos-duration="500" data-aos-delay="100">
+               <img src="mario-Photoroom.png-Photoroom.png" alt="mario">
+            </div>
+         </div>
+      </main>
+      <!-- blocos -->
+      <section class="section1">
+         <div class="container-blocos">
+            <img class="bloco" src="tijilo-removebg-preview.png" alt="bloco" data-aos="fade-up" data-aos-duration="500" >
+            <img class="bloco" src="tijilo-removebg-preview.png" alt="bloco" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+            <img class="bloco" src="tijilo-removebg-preview.png" alt="bloco" data-aos="fade-up" data-aos-duration="500" data-aos-delay="150">
+            <img class="bloco" src="tijilo-removebg-preview.png" alt="bloco" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+            <img class="bloco" src="tijilo-removebg-preview.png" alt="bloco" data-aos="fade-up" data-aos-duration="500" data-aos-delay="250">
+            <img class="bloco" src="blc amarelo.jpeg" alt="bloco amarelo"    data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
+            <img class="bloco" src="tijilo-removebg-preview.png" alt="bloco" data-aos="fade-up" data-aos-duration="500" data-aos-delay="350">
+            <img class="bloco" src="tijilo-removebg-preview.png" alt="bloco" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
+            <img class="bloco" src="tijilo-removebg-preview.png" alt="bloco" data-aos="fade-up" data-aos-duration="500" data-aos-delay="450">
+            <img class="bloco" src="tijilo-removebg-preview.png" alt="bloco" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+            <img class="bloco" src="tijilo-removebg-preview.png" alt="bloco" data-aos="fade-up" data-aos-duration="500" data-aos-delay="550">
+            <img class="bloco" src="blc amarelo.jpeg" alt="bloco amarelo"    data-aos="fade-up" data-aos-duration="500" data-aos-delay="600">
+            <img class="bloco" src="blc amarelo.jpeg" alt="bloco amarelo"    data-aos="fade-up" data-aos-duration="500" data-aos-delay="650">
+            <img class="bloco" src="tijilo-removebg-preview.png" alt="bloco" data-aos="fade-up" data-aos-duration="500" data-aos-delay="700">
+            <img class="bloco" src="tijilo-removebg-preview.png" alt="bloco" data-aos="fade-up" data-aos-duration="500" data-aos-delay="750">
+            <img class="bloco" src="tijilo-removebg-preview.png" alt="bloco" data-aos="fade-up" data-aos-duration="500" data-aos-delay="800">
+            <img class="bloco" src="tijilo-removebg-preview.png" alt="bloco" data-aos="fade-up" data-aos-duration="500" data-aos-delay="850">
+            <img class="bloco" src="tijilo-removebg-preview.png" alt="bloco" data-aos="fade-up" data-aos-duration="500" data-aos-delay="900">
+         </div>
+         <div class="text-habilidades">
+         <h3 id="mario-title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="350" >
+            <span>H</span><span>a</span><span>b</span><span>i</span><span>l</span><span>i</span><span>d</span><span>a</span><span>d</span><span>e</span><span>s</span>
+         </h3>
+         <ul>
+            <li id="mario-title"  data-aos="fade-up" data-aos-duration="500" data-aos-delay="350" ><span>H</span><span>T</span><span>M</span><span>L</span><span>5</span></li>
+         </ul>
+          <p  data-aos="fade-up" data-aos-duration="500" data-aos-delay="350" >HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. </p>
+          
+         <ul>
+            <li id="mario-title"  data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" ><span>C</span><span>S</span><span>S</span></li>
+         </ul>
+         <p  data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" >Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags "style". Também é possível, adicionar estilos adicionando um link para um arquivo CSS que contém os estilos</p>
+         
+         <ul>
+            <li id="mario-title"  data-aos="fade-up" data-aos-duration="500" data-aos-delay="450" ><span>J</span><span>a</span><span>v</span><span>a</span><span>S</span><span>c</span><span>r</span><span>i</span><span>p</span><span>t</span></li>
+         </ul>
+         <p  data-aos="fade-up" data-aos-duration="500" data-aos-delay="450" >JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web. </p>
+      
+         <ul>
+            <li id="mario-title"  data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" ><span>B</span><span>I</span><span>B</span><span>L</span><span>I</span><span>O</span><span>T</span><span>E</span><span>C</span><span>A</span> <span>A</span><span>O</span><span>S</span></li>
+         </ul>
+         <p  data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" >A biblioteca AOS (Animation On Scroll) é uma ferramenta de programação front-end que permite a criação de animações em elementos da página enquanto o usuário rola a página. </p>
+         
+      </section>
+      <main class="main-projetos">
+         <h3 id="mario-title" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="350" >
+            <span>P</span><span>r</span><span>o<span>j</span><span>e</span><span>t</span><span>o</span><span>s</span>
+         </h3>
+         <div class="container-projetos">
+            <div class="video-coluna"  data-aos="fade-up" 
+               data-aos-duration="400"
+               data-aos-easing="ease-in-out">
+               <a href="https://homemaranha-gabriel.netlify.app" target="_blank">
+               <img src="Cópia de Cópia de Inserir um subtítulo.png" alt="#">
+               </a>
+               <h2 id="mario-title"><span>C</span><span>o</span><span>m</span><span>p</span><span>r</span><span>a</span> <span>d</span><span>e</span> <span>I</span><span>n</span><span>g</span><span>r</span><span>e</span><span>s</span><span>s</span><span>o</span><span>s</span>
+               </h2>
+            </div>
+            <div class="video-coluna" data-aos="fade-up" 
+               data-aos-duration="400"
+               data-aos-delay="200"
+               data-aos-easing="ease-in-out">
+               <a href="https://relogiodigitalllll.netlify.app" target="_blank">
+               <img src="relogio.jpeg" alt="#">
+               </a>
+               <h2 id="mario-title"><span>R</span><span>e</span><span>l</span><span>ó</span><span>g</span><span>i</span><span>o</span> <span>D</span><span>i</span><span>g</span><span>i</span><span>t</span><span>a</span><span>l</span>
+               </h2>
+            </div>
+            <div class="video-coluna" data-aos="fade-up" 
+            data-aos-duration="400"
+            data-aos-delay="300"
+            data-aos-easing="ease-in-out">
+            <a href="https://versiculosgerador.netlify.app/" target="_blank">
+            <img src="Cópia de Cópia de Inserir um subtítulo (1).png" alt="#"> 
+            </a>
+            <h2 id="mario-title"><span>G</span><span>e</span><span>r</span><span>a</span><span>d</span><span>o</span><span>r</span> <span>d</span><span>e</span> <span>V</span><span>e</span><span>r</span><span>s</span><span>í</span><span>c</span><span>u</span><span>l</span><span>o</span><span>s</span>
+            </h2>
+         </div>
+         </div>
+         <div class="container-projetos" >
+            <div class="video-coluna" data-aos="fade-up" 
+               data-aos-duration="400"
+               data-aos-delay="200"
+               data-aos-easing="ease-in-out">
+               <a href="#">
+               <img src="jesus.png" alt="#"> 
+               </a>
+               <h2 id="mario-title"><span>B</span><span>í</span><span>b</span><span>l</span><span>i</span><span>a</span> <span>V</span><span>i</span><span>r</span><span>t</span><span>u</span><span>a</span><span>l</span>
+               </h2>
+            </div>
+            <div class="video-coluna" data-aos="fade-up" 
+               data-aos-duration="400"
+               data-aos-delay="300"
+               data-aos-easing="ease-in-out">
+               <a href="#">
+               <img src="box-misterio.jpeg" alt="#"> 
+               </a>
+               <h2>&nbsp;</h2>
+            </div>
+            <div class="video-coluna" data-aos="fade-up" 
+            data-aos-duration="400"
+            data-aos-delay="400"
+            data-aos-easing="ease-in-out">
+            <a href="#">
+            <img src="box-misterio.jpeg" alt="#"> 
+            </a>
+            <h2>&nbsp;</h2>
+         </div>
+         </div>
+      </main>
+      <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+      <script>
+         AOS.init();
+      </script>
+   </body>
+</html>
